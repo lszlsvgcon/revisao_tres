@@ -50,3 +50,30 @@ if __name__ == "__main__":
     main()
 
 
+#4. Crie uma função que pede 3 nomes de alimentos digitado pelo usuário e substitui os elementos do array [“Macarrão”, “Pepino”, “Batata”] com esses 3 alimentos. Imprima o nome dos alimentos um abaixo do outro. 
+#array_inicial = [“Macarrão”, “Pepino”, “Batata”]
+#Exemplo de entrada: Arroz, Feijão, Farinha Exemplo de saída: 1 – Arroz 2 - Feijão 3 – Farinha
+
+
+def substituir_alimentos():
+    # Lê os 3 nomes de alimentos digitados pelo usuário
+    alimento1 = input("Digite o primeiro alimento: ")
+    alimento2 = input("Digite o segundo alimento: ")
+    alimento3 = input("Digite o terceiro alimento: ")
+
+    # Cria o array inicial
+    array_inicial = ["Macarrão", "Pepino", "Batata"]
+
+    # Substitui os elementos do array com os alimentos digitados
+    array_inicial[0] = alimento1
+    array_inicial[1] = alimento2
+    array_inicial[2] = alimento3
+
+    # Imprime os nomes dos alimentos um abaixo do outro
+    print(array_inicial[0])
+    print(array_inicial[1])
+    print(array_inicial[2])
+
+# Chama a função
+substituir_alimentos()
+
