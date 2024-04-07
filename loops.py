@@ -9,4 +9,14 @@ def imprimir_contagem():
 imprimir_contagem()
 
 
+#6. Crie uma função que imprime uma contagem de 0 até o número que o usuário digitou. 
+#Exemplo de entrada: 3 Exemplo de saída:
+#0 1 2 3  (um número embaixo do outro).
+
+def imprimir_contagem(numero):
+    for i in range(numero+1):
+        print(i)
+
+numero_digitado = int(input("Digite um número: "))
+imprimir_contagem(numero_digitado)
 
