@@ -20,3 +20,16 @@ def imprimir_contagem(numero):
 numero_digitado = int(input("Digite um número: "))
 imprimir_contagem(numero_digitado)
 
+
+#7. Crie uma função que imprime a tabuada de adição do número 2. 
+#Entrada: Nenhuma Exemplo de saída:
+#2 + 1 = 3 2 + 2 = 4 2 + 3 = 5 2 + 4 = 6    (um número embaixo do outro).
+
+
+def imprimir_tabuada():
+    numero = 2
+    for i in range(1, 5):
+        resultado = numero + i
+        print(f"{numero} + {i} = {resultado}")
+
+imprimir_tabuada()
