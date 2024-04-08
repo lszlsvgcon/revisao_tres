@@ -1,5 +1,5 @@
 #5. Crie uma função que imprime uma contagem de 0 a 20. Ao final faça um commit no GitHub.
-#Exemplo de entrada: Nenhuma Exemplo de saída: 0 1 2
+#Exemplo de entrada: Nenhuma Exemplo de saída: 0 1 2   (um número embaixo do outro).
 
 def imprimir_contagem():
     for i in range(21):
@@ -23,7 +23,7 @@ imprimir_contagem(numero_digitado)
 
 #7. Crie uma função que imprime a tabuada de adição do número 2. 
 #Entrada: Nenhuma Exemplo de saída:
-#2 + 1 = 3 2 + 2 = 4 2 + 3 = 5 2 + 4 = 6    (um número embaixo do outro).
+#2 + 1 = 3 2 + 2 = 4 2 + 3 = 5 2 + 4 = 6    (um cálculo embaixo do outro).
 
 
 def imprimir_tabuada():
@@ -31,5 +31,19 @@ def imprimir_tabuada():
     for i in range(1, 5):
         resultado = numero + i
         print(f"{numero} + {i} = {resultado}")
+
+imprimir_tabuada()
+
+
+#8. Crie uma função que imprime a tabuada de multiplicação de um número digitado pelo usuário. 
+#Exemplo de entrada: 3 Exemplo de saída:
+#3 x 1 = 3 3 x 2 = 6 3 x 3 = 9    (um cálculo embaixo do outro).
+
+
+def imprimir_tabuada():
+    numero = int(input("Digite um número: "))
+    for i in range(1, 4):
+        resultado = numero * i
+        print(f"{numero} x {i} = {resultado}")
 
 imprimir_tabuada()
